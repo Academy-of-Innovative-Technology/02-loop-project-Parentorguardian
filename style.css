@@ -1,0 +1,56 @@
+
+body {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; /* Align to the top */
+    min-height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0; /* Default background color */
+    color: #333;
+    padding: 20px; /* Add some padding around the content */
+    box-sizing: border-box; /* Include padding in element's total width and height */
+}
+
+.container {
+    background-color: white;
+    padding: 30px 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    width: 100%;
+    text-align: center;
+}
+
+h1 {
+    color: #007bff;
+    margin-bottom: 30px;
+    font-size: 2.5em;
+}
+
+#lyrics-container p {
+    font-size: 1.2em;
+    line-height: 1.6;
+    margin-bottom: 15px;
+    padding: 5px 0;
+    transition: color 0.5s ease-in-out; /* Smooth transition for color changes */
+}
+
+/* Color classes for low supply */
+.green {
+    color: #28a745; /* Green */
+}
+
+.yellow {
+    color: #ffc107; /* Yellow */
+}
+
+.red {
+    color: #dc3545; /* Red */
+}
+
+.zero-message {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #6c757d; /* Grey for the final message */
+}
